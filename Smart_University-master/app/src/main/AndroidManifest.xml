@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.momen.smart_university">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/college_graduation"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activites.MainActivity" />
+        <activity android:name=".Activites.Student_absent" />
+        <activity android:name=".Activites.Login" />
+        <activity
+            android:name=".Activites.DocorActivity"
+            android:label="@string/title_activity_docor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activites.Table" />
+        <activity
+            android:name=".Activites.Quiz"
+            android:label="@string/title_activity_quiz" />
+        <activity android:name=".Activites.Create_Quiz" />
+        <activity android:name=".Activites.Answer_question" />
+        <activity android:name=".Activites.Create_Question" />
+        <activity
+            android:name=".Activites.Student_Profile"
+            android:label="@string/title_activity_student__profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activites.Note" />
+        <activity android:name=".Activites.AllowAttendance" />
+        <activity
+            android:name=".Activites.Splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activites.AttendanceDetailsActivity" />
+        <activity
+            android:name=".Activites.AdminActivity"
+            android:label="@string/title_activity_admin" />
+        <activity
+            android:name=".Activites.Admin_Student"
+            android:label="@string/title_activity_admin__student" />
+        <activity android:name=".Activites.Add_Student" />
+
+        <service
+            android:name=".firebase.fcm.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Activites.LoginDoctorActivity" />
+        <activity android:name=".Activites.AddDoctor" />
+        <activity android:name=".Activites.AbsenceDetailsActivity"></activity>
+    </application>
+
+</manifest>

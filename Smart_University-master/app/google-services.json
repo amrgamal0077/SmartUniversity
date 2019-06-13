@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "711087638384",
+    "firebase_url": "https://smartuniversity-f7443.firebaseio.com",
+    "project_id": "smartuniversity-f7443",
+    "storage_bucket": "smartuniversity-f7443.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711087638384:android:b26d87ae7133daf9",
+        "android_client_info": {
+          "package_name": "com.example.amrgamal.smart_university"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711087638384-lhkh449ob5olgeubokbbhfjejoptc790.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amrgamal.smart_university",
+            "certificate_hash": "6b124f47c6c151aaa9d51a3cc7ad896fdaf10164"
+          }
+        },
+        {
+          "client_id": "711087638384-43aodeparpno2ed693snm8ebdp2fiva1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2iaAUT_1jWztIMX3Iwt7eSKaABoyCPUA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711087638384-43aodeparpno2ed693snm8ebdp2fiva1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711087638384:android:92294eedc5cd5581",
+        "android_client_info": {
+          "package_name": "com.example.momen.smart_university"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711087638384-1ck0g25q0bnfsh7qps0nb2amip99rula.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.momen.smart_university",
+            "certificate_hash": "0c7261eac103710a960759386fdf6f21361c3e5d"
+          }
+        },
+        {
+          "client_id": "711087638384-43aodeparpno2ed693snm8ebdp2fiva1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2iaAUT_1jWztIMX3Iwt7eSKaABoyCPUA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711087638384-43aodeparpno2ed693snm8ebdp2fiva1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
